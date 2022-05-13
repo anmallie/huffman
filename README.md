@@ -14,29 +14,29 @@ The rest of the code is my work unless stated otherwise.
 
 ## Files
 
-- io.{c, h}       Implementation of the i/o, wrapper for <unistd.h> calls.
+	 io.{c, h}       Implementation of the i/o, wrapper for <unistd.h> calls.
 
-- node.{c, h}     Implementation of node ADT.
+	 node.{c, h}     Implementation of node ADT.
 
-- stack.{c, h}    Implementation of the priority queue ADT.
+	 stack.{c, h}    Implementation of the priority queue ADT.
 
-- code.{c, h}     Implementation of the code ADT.
+	 code.{c, h}     Implementation of the code ADT.
 
-- stack.{c, h}    Implementation of the node stack ADT.
+	 stack.{c, h}    Implementation of the node stack ADT.
 
-- huffman.{c, h}  Implementation of Huffman decoding and encoding logic.
+	 huffman.{c, h}  Implementation of Huffman decoding and encoding logic.
 
-- encode.c        Encoder program.
+	 encode.c        Encoder program.
 
-- decode.c        Decoder program.
+	 decode.c        Decoder program.
 
-- entropy.c       Program given by Prof. Long that calculates the entropy of data.
+	 entropy.c       Program given by Prof. Long that calculates the entropy of data.
 
-- header.h        File header struct definition.
+	 header.h        File header struct definition.
 
-- defines.h       Defining various macros used in the program.
+	 defines.h       Defining various macros used in the program.
 
-- Makefile
+	 Makefile
 
 ## Makefile
 
@@ -44,7 +44,7 @@ The rest of the code is my work unless stated otherwise.
 
         $ make {all, encode, decode, entropy}
 
-## Cleaning
+### Clean
 
 	$ make clean
 
@@ -55,11 +55,11 @@ The rest of the code is my work unless stated otherwise.
 
 ### Options
 
-* -h          Prints help message.
+	-h          Prints help message.
 
-* -v          Enable printing compression statistics to stderr.
+	-v          Enable printing compression statistics to stderr.
 
-* -i infile   Specify input file to compress.
+	-i infile   Specify input file to compress.
 
-* -o outfile  Specify file to output compressed file.
+	-o outfile  Specify file to output compressed file.
 
